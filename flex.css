@@ -16,9 +16,53 @@
   margin-right: auto;
 }
 
-.list {
+.head-list > div {
   flex-basis: 140px;
   height: 70px;
   margin: 0 10px;
   background-color: pink;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #d8ffb6;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #00b522;
+  max-width: 700px;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.box > div {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #52a1ff;
+  justify-content: center;
+}
+
+.footer > div {
+  max-width: 600px;
+  height: 40px;
+  flex-basis: 45%;
+  margin: 10px;
+  background-color: #b6e7ff;
 }
